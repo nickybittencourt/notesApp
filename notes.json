@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "title": "testing",
+        "body": "Hello this is a test"
+    },
+    {
+        "title": "Blabla",
+        "body": "Hello this is a test"
+    }
+]
