@@ -28,11 +28,11 @@ const addNote = (title, body) => {
 
     const notes = loadNotes()
 
-    //filter through notes to check if title already in use
-    const duplicateNotes = notes.filter(note => note.title === title)
+    //search through notes to check if title already in use
+    const duplicateNote = notes.find(note => note.title === title)
 
     //if no duplicate found, add to stored data, else print error
-    if (duplicateNotes.length === 0) {
+    if (!duplicateNote) {
 
         notes.push({
 
